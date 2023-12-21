@@ -54,7 +54,7 @@ export default function ListHotels() {
               List(
                 checkIn,
                 checkOut,
-                (dest_ids = dataSearch.data[0]?.dest_id),
+                (dest_id = dataSearch.data[0]?.dest_id),
                 (dest_type = dataSearch.data[0]?.dest_type),
                 (guest_qty = guest)
               )
