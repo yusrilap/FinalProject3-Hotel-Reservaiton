@@ -1,7 +1,7 @@
 const List = (checkIn, checkOut, dest_ids, dest_type, guest_qty) => {
   return {
     method: "GET",
-    url: "",
+    url: "https://apidojo-booking-v1.p.rapidapi.com/properties/list",
     params: {
       offset: "0",
       arrival_date: checkIn,
@@ -19,8 +19,8 @@ const List = (checkIn, checkOut, dest_ids, dest_type, guest_qty) => {
       travel_purpose: "leisure",
     },
     headers: {
-      "X-RapidAPI-Key": "",
-      "X-RapidAPI-Host": "",
+      "X-RapidAPI-Key": "b347bc0983mshe9d646e8a29ed83p1b05b4jsn708feff2a216",
+      "X-RapidAPI-Host": "apidojo-booking-v1.p.rapidapi.com",
     },
   };
 };
